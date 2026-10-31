@@ -48,8 +48,8 @@
 .sn-it>a.sn-pill[aria-current=page]{color:#0B1A3A;box-shadow:0 0 0 2px #0B1A3A inset,0 4px 14px #F5C51840}
 .sn-goles .sn-it:hover{background:none}
 @media(max-width:800px){.sn-it>a.sn-pill{padding:6px 12px;margin:0}}
-.sn-logo{display:inline-flex;align-items:center;gap:10px;line-height:1}.sn-mark{width:26px;height:34px;flex:none;margin-top:-3px}
-@media(max-width:800px){.sn-mark{width:23px;height:30px}.sn-logo{gap:8px}}
+.sn-logo{display:inline-flex;align-items:center;gap:10px;line-height:1}.sn-mark{display:block;width:36px;height:42px;flex:none;margin:-4px 0}
+@media(max-width:800px){.sn-mark{width:32px;height:38px}.sn-logo{gap:8px}}
 /* Logo en el pie (v21) */
 .sf-brand{max-width:1200px;margin:0 auto;padding:44px 32px 8px;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:Poppins,sans-serif;border-top:1px solid #ffffff1a}
 .sf-brand img{display:block;width:94px;height:110px}
