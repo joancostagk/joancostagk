@@ -48,8 +48,8 @@
 .sn-it>a.sn-pill[aria-current=page]{color:#0B1A3A;box-shadow:0 0 0 2px #0B1A3A inset,0 4px 14px #F5C51840}
 .sn-goles .sn-it:hover{background:none}
 @media(max-width:800px){.sn-it>a.sn-pill{padding:6px 12px;margin:0}}
-.sn-logo{display:inline-flex;align-items:center;gap:10px;line-height:1}.sn-mark{width:34px;height:34px;flex:none;margin-top:-2px}
-@media(max-width:800px){.sn-mark{width:30px;height:30px}.sn-logo{gap:8px}}
+.sn-logo{display:inline-flex;align-items:center;gap:10px;line-height:1}.sn-mark{width:26px;height:34px;flex:none;margin-top:-3px}
+@media(max-width:800px){.sn-mark{width:23px;height:30px}.sn-logo{gap:8px}}
 /* Botones comunes */
 .btn{transition:transform .12s,box-shadow .12s,background .12s,border-color .12s}
 .btn-y{box-shadow:0 6px 18px #F5C51833}
