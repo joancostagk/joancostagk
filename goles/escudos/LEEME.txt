@@ -1,0 +1,13 @@
+Biblioteca de escudos - Analiza tus goles
+==========================================
+Escudos de los clubes del grupo del CD Iberlanda en 2ª División Regional Bizkaia 2026-27
+(lista sacada del calendario público de iberlanda.com, 31/10/2026).
+Cada escudo se descargó una vez de la web del propio club o de una ficha pública (ver
+"fuente" en escudos.json), se recortó y se redujo a 128x128 WebP transparente.
+Los escudos pertenecen a sus clubes; se usan solo para identificar al club dentro de la herramienta.
+Si un club pide retirarlo, borra su .webp y su entrada en escudos.json y escudos.js.
+
+Para añadir uno: guarda <slug>.webp (128x128) aquí y añade la entrada en escudos.json
+y en escudos.js (mismo contenido que la lista "escudos").
+Sin escudo (se muestran iniciales): Ermua Blues CD, Busturia Ur-Zelai KT, Iurretako KT, Lumo KE,
+Urretxindorra Ikastola.
