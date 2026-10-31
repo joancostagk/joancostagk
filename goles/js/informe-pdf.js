@@ -94,8 +94,9 @@
   }
   function nuevaPagina(primera) {
     if (!primera) doc.addPage();
-    font('anton', 12, C.navy); doc.text('ANALIZA', M, 13, { baseline: 'top' }); var w = doc.getTextWidth('ANALIZA ');
-    font('anton', 12, C.blue); doc.text('TUS GOLES', M + w, 13, { baseline: 'top' });
+    var lx = M; if (primera) { marca(M, 10.4, 9); lx = M + 9.2; }  // logo de Joan en la primera página (portero y grupo)
+    font('anton', 12, C.navy); doc.text('ANALIZA', lx, 13, { baseline: 'top' }); var w = doc.getTextWidth('ANALIZA ');
+    font('anton', 12, C.blue); doc.text('TUS GOLES', lx + w, 13, { baseline: 'top' });
     var tw = 0;
     if (O.demo) { var tag = 'DATOS DE EJEMPLO'; font('bold', 6.5, C.navy); tw = doc.getTextWidth(tag) + 4;
       doc.setLineDashPattern([0.8, 0.6], 0); box(W - M - tw, 13, tw, 5, null, C.yel, 1); doc.setLineDashPattern([], 0);

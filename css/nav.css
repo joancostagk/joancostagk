@@ -50,6 +50,17 @@
 @media(max-width:800px){.sn-it>a.sn-pill{padding:6px 12px;margin:0}}
 .sn-logo{display:inline-flex;align-items:center;gap:10px;line-height:1}.sn-mark{width:26px;height:34px;flex:none;margin-top:-3px}
 @media(max-width:800px){.sn-mark{width:23px;height:30px}.sn-logo{gap:8px}}
+/* Logo en el pie (v21) */
+.sf-brand{max-width:1200px;margin:0 auto;padding:44px 32px 8px;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:Poppins,sans-serif;border-top:1px solid #ffffff1a}
+.sf-brand img{display:block;width:94px;height:110px}
+.sf-bt{display:flex;flex-direction:column;gap:6px}
+.sf-bt b{font-family:Anton,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.06em;font-size:30px;color:#fff;line-height:1}
+.sf-bt span{font-size:11.5px;font-weight:600;letter-spacing:.32em;text-transform:uppercase;color:#F5C518}
+@media(max-width:800px){.sf-brand{padding:36px 16px 4px;gap:14px}.sf-brand img{width:77px;height:90px}.sf-bt b{font-size:25px}.sf-bt span{font-size:10px;letter-spacing:.26em}}
+.sf-logo{display:flex;align-items:center;gap:18px}
+.sf-brand .sf-l{display:flex;flex-direction:row;align-items:center;gap:10px}.sf-brand .sf-l .logo{font-size:22px;color:#fff}
+footer.sf{padding-top:14px!important;border-top:0!important}footer.sf .wrap,footer.sf .wrap2{justify-content:flex-start!important}footer.sf .sf-r{text-align:left!important;font-size:12.5px;color:#8A9CC0}
+@media(max-width:420px){.sf-brand{padding-left:20px;padding-right:20px;flex-wrap:wrap;row-gap:22px}.sf-logo{gap:12px}.sf-brand .sf-l .logo{font-size:19px}}
 /* Botones comunes */
 .btn{transition:transform .12s,box-shadow .12s,background .12s,border-color .12s}
 .btn-y{box-shadow:0 6px 18px #F5C51833}
